@@ -1,0 +1,142 @@
+1、HTML是什么？
+
+	HTML 是用来描述网页的一种语言。
+
+	HTML 指的是超文本标记语言 (Hyper Text Markup Language) 
+	HTML 不是一种编程语言，而是一种标记语言 (markup language) 
+	标记语言是一套标记标签 (markup tag) 
+	HTML 使用标记标签来描述网页
+	
+2、HTML5是什么？
+
+	HTML5 将成为 HTML、XHTML 以及 HTML DOM 的新标准。
+	HTML 的上一个版本诞生于 1999 年。自从那以后，Web 世界已经经历了巨变。
+	HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。
+
+	HTML5 是如何起步的？
+	
+	HTML5 是 W3C 与 WHATWG 合作的结果。
+	编者注：W3C 指 World Wide Web Consortium，万维网联盟。
+	编者注：WHATWG 指 Web Hypertext Application Technology Working Group。
+	WHATWG 致力于 web 表单和应用程序，而 W3C 专注于 XHTML 2.0。在 2006 年，双方决定进行合作，来创建一个新版本的 HTML。
+	为 HTML5 建立的一些规则：
+		新特性应该基于 HTML、CSS、DOM 以及 JavaScript。 
+		更优秀的错误处理 
+		更多取代脚本的标记 
+		HTML5 应该独立于设备 
+		开发进程应对公众透明
+	新特性
+		HTML5 中的一些有趣的新特性：
+		用于绘画的 canvas 元素 
+		用于媒介回放的 video 和 audio 元素 
+		对本地离线存储的更好的支持 
+		新的特殊内容元素，比如 article、footer、header、nav、section 
+		新的表单控件，比如 calendar、date、time、email、url、search 
+		减少对外部插件的需求（比如 Flash）
+
+3、HTML的标签和属性的概念是什么？
+		
+	A、HTML 标签
+	HTML 标记标签通常被称为 HTML 标签 (HTML tag)。
+	HTML 标签是由尖括号包围的关键词，比如 <html> 
+	HTML 标签通常是成对出现的，比如 <b> 和 </b> 
+	标签对中的第一个标签是开始标签，第二个标签是结束标签 
+	开始和结束标签也被称为开放标签和闭合标签 
+
+	B、HTML 属性
+	HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信息
+	属性总是以名称/值对的形式出现，比如：name="value"。
+	属性总是在 HTML 元素的开始标签中规定。
+
+4、文档类型是什么？
+
+	<!DOCTYPE> 声明
+	Web 世界中存在许多不同的文档。只有了解文档的类型，浏览器才能正确地显示文档。
+	HTML 也有多个不同的版本，只有完全明白页面中使用的确切 HTML 版本，浏览器才能完全正确地显示出 HTML 页面。这就是 <!DOCTYPE> 的用处。
+	<!DOCTYPE> 不是 HTML 标签。它为浏览器提供一项信息（声明），即 HTML 是用什么版本编写的。
+	
+	常用的声明：
+	
+	A、HTML5
+		<!DOCTYPE html>
+	
+	B、HTML 4.01
+		DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">	
+		
+	C、XHTML 1.0
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">	
+		
+5、	meta标签都用来做什么的？
+		<meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
+		<meta> 标签位于文档的头部，不包含任何内容。<meta> 标签的属性定义了与文档相关联的名称/值对。
+		例：<meta name="keywords" content="HTML,ASP,PHP,SQL" 
+			<meta http-equiv="charset" content="iso-8859-1">
+	
+6、Web语义化是什么，是为了解决什么问题？
+
+	A、html语义化
+		一个 html元素的存在就意味被标记内容的那部分有相应的结构化的意义，没有理由使用其他的标记。换句话说，不要让css使一个html元素看起来就像另一个html元素，比如用<div>来代替<p>标记标题。
+		
+	B、css命名语义化
+		一般而言，CSS类名的语义化声明方式应当考虑页面中某个相对元素的”用意”，独立于它的“定位”或确切的特性(结构化方式)。像left-bar, red-text, small-title…这些都属于结构化定义的例子。	
+		
+	C、web语义化的好处
+
+	（1）去掉或者丢失样式的时候能够让页面呈现出清晰的结构
+	（2）有利于SEO：和搜索引擎建立良好沟通，有助于爬虫抓取更多的有效信息：爬虫依赖于标签来确定上下文和各个关键字的权重；
+	（3）方便其他设备解析（如屏幕阅读器、盲人阅读器、移动设备）以意义的方式来渲染网页；
+	（4）便于团队开发和维护，语义化更具可读性，是下一步吧网页的重要动向，遵循W3C标准的团队都遵循这个标准，可以减少差异化。	
+		
+7、链接是什么概念，对应什么标签？
+	
+	HTML 使用 <a> （锚）标签来创建连接另一个文档的链接。锚可以指向网络上的任何资源：一张 HTML 页面，一幅图像，一个声音或视频文件等等。
+	创建锚的语法：
+	A、<a href="http://www.w3school.com.cn/">Visit W3School!</a>
+	将名字为Visit W3School!的链接指向http://www.w3school.com.cn/网页
+	
+	B、<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>使用 Target 属性，你可以定义被链接的文档在何处显示。
+	将名字为Visit W3School!的链接指向http://www.w3school.com.cn/的网页在新浏览器的新标签中打开
+	
+	C、<a href="#C4">查看 Chapter 4。</a>
+	   <a name="C4">Chapter 4</a>
+	   链接到同一个页面的不同位置 
+	
+8、常用标签都有哪些，都适合用在什么场景？
+
+	常用的标签太多，熟练使用W3C手册即可。
+		
+9、表单标签都有哪些，对应着什么功能，都有哪些属性？
+
+	HTML中常用的表单元素包括：文本区域（TEXTAREA），列表框（SELECT），文本输入框（INPUT type=text），密码输入框（INPUT type=password），单选输入框（INPUT type=radio），复选输入框（INPUT type=checkbox），重置按钮、提交按钮、隐藏域、等等。
+
+	A、文本域<input type="text" name="text" value="" />
+
+	B、密码域密码跟文本框类似，但是在里面输入的内容显示为圆点。<input type="password" name="text" value="" />
+
+	C、单选按钮男人:<input type="radio" name="sex" value="male" /> Male<br />女人：<input type="radio" name="sex" value="female" /> Female
+
+	D、复选框<input type="checkbox" name="check1" value="" />
+
+	E、按钮<input type="button" value="确认" />
+
+	F、重置按钮当点击重置按钮时，重置按钮所在的表单将全部清空，而其他表单不受影响。<input type="reset" value="重置" />	
+		
+10、ol, ul, li, dl, dd, dt等这些标签都适合用在什么地方，举个例子。		
+	ol是有序列表，ul是无序列表，li是列表元素，dl是自定义列表，dd是自定义列表中的内容，dt是自定义列表中的项目
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
