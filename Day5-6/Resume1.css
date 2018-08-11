@@ -1,0 +1,19 @@
+span {
+	margin-right: 30px;
+}
+h3 {
+	margin: 0px;
+}
+h3,
+b {
+	color: rgba(0,0,0,0.9);
+}
+.skill p {
+	margin-top: 0px;
+}
+.education p {
+	margin-top: 0px;
+}
+.project p {
+	margin-top: 0px;
+}

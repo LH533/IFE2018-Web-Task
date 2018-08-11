@@ -1,0 +1,143 @@
+span {
+	margin-right: 30px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 18px;
+	background-color: gray;
+	color:#ffffff;
+	font: 700 16px "arial";
+}
+
+h2 {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 20px;
+	font: 600 16px "arial";
+	text-align: center;
+	line-height: 100px;
+	background-color: #cccccc;
+}
+
+h3 {
+	font:600 16px "arial";
+	margin: 0 4px;
+	padding: 0;
+	float: left;
+}
+
+.left,.right {
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: rgba(128,128,128,0.5);
+}
+
+.contain {
+	width: 1000px;
+	margin: 0 auto;
+	color: #3c3c3c;
+	font: 16px "arial";
+}
+
+.title {
+	float: left;
+}
+
+.content1 {
+	width: 848px;
+	height: 141px;
+	padding-left: 10px;
+	float: left;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	border-color: rgba(128,128,128,0.5);
+}
+
+.content {
+	width: 848px;
+	height: 140px;
+	padding-left: 10px;
+	float: left;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: rgba(128,128,128,0.5);
+}
+
+.information p {
+	float: left;
+}
+
+.contact p {
+	float: left;;
+}
+
+.skill p {
+	margin: 0;
+	padding: 0;
+
+}
+
+.education p {
+	margin: 0;
+	padding: 0;
+}
+
+.project p {
+	margin: 0;
+	padding: 0;
+}
+
+.cell {
+	margin-top: 10px;
+}
+
+.right:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.contact:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.skill:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.education:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.information:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.project:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+.title:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility:hidden; 
+}
