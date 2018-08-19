@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+/*float实现左侧30%，右侧%70的两栏布局
+.left {   
+	width: 30%;
+	height: 100px;
+	background-color: #ff0000;
+	float: left;
+}
+.right {
+	width: 70%;
+	height: 100px;
+	background-color: #00ff00;
+	float: left;
+}
+body:after {
+	display: block;
+	content: '';
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+*/
+
+/*position实现左侧30%，右侧%70的两栏布局
+.left {
+	width: 30%;
+	height: 100px;
+	background-color: #ff0000;
+	position: absolute;
+}
+.right {
+	width: 70%;
+	height: 100px;
+	background-color: #00ff00;
+	position: absolute;
+	right: 0;
+}*/
+
+/*flex实现左侧30%，右侧%70的两栏布局
+body {
+	min-width: 200px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.left {
+	width: 30%;
+	height: 100px;
+	background-color: #ff0000;
+}
+.right {
+	width: 70%;
+	height: 100px;
+	background-color: #00ff00;
+}*/
+
+/*float实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	float: left;
+}
+.right {
+	margin-left: 200px;
+	height: 100px;
+	background-color: #00ff00;
+}*/
+
+/*position实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	position: absolute;
+	left: 0;
+}
+.right {
+	margin-left: 200px;
+	height: 100px;
+	background-color: #00ff00;
+}*/
+
+/*flex实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化
+body {
+	min-width: 200px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+}
+.right {
+	flex:auto;
+	height: 100px;
+	background-color: #00ff00;
+}*/
+
+/*float实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化
+.left {
+	width: calc(100% - 200px);
+	height: 100px;
+	background-color: #00ff00;
+	float: left;
+}
+.right {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	float: right;
+}
+body:after {
+	display: block;
+	content: '';
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}*/
+
+/*position实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化
+.left {
+	margin-right: 200px;
+	height: 100px;
+	background-color: #00ff00;
+}
+.right {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	position: absolute;
+	right: 0;
+	top: 0;
+}*/
+
+/*flex实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化
+body {
+	min-width: 400px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.left {
+	flex:auto;
+	height: 100px;
+	background-color: #00ff00;
+}
+.right {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+}*/
+
+/*
+float实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+	float: left;
+}
+.right {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	float: right;
+}
+.content {
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 100px;
+	background-color: #0000ff;
+}*/
+
+/*position实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.content {
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 100px;
+	background-color: #0000ff;
+}*/
+
+/*flex实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化
+body {
+	min-width: 400px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+}
+.right {
+	order: 1;
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+}
+.content {
+	flex: auto;
+	height: 100px;
+	background-color: #0000ff;
+}*/
+
+/*float实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+	float: left;
+}
+.right {
+	width: calc(100% - 400px);
+	height: 100px;
+	background-color: #0000ff;
+	float: right;
+}
+.content {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	float: left;	
+}
+body:after {
+	display: block;
+	content: '';
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}*/
+
+/*position实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right {
+	width: calc(100% - 400px);
+	height: 100px;
+	background-color: #0000ff;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.content {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+	position: absolute;
+	left: 200px;
+	top: 0;	
+}*/
+
+/*flex实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化
+body {
+	min-width: 400px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.left {
+	width: 200px;
+	height: 100px;
+	background-color: #00ff00;
+}
+.right {
+	order: 1;
+	flex: auto;
+	height: 100px;
+	background-color: #0000ff;
+}
+.content {
+	width: 200px;
+	height: 100px;
+	background-color: #ff0000;
+}*/
