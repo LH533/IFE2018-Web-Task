@@ -2,6 +2,212 @@
 	margin: 0;
 	padding: 0;
 } 
+	
+/*header区域*/
+.header {
+	min-width: 960px;
+	background-color: #333333;
+}
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+.logo {
+	color: #FFFFFF;
+	float: left;
+	font-size: 22px;
+	line-height: 63px;
+}
+.right-nav {
+	color: #FFFFFF;
+	float: right;
+}
+.right-nav li {
+	margin-left: 10px;
+	list-style-type: none;
+	float: left;	
+}
+.right-nav li a {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.right-nav ul:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}
+.content:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}
+
+/*Banner区域*/
+.Banner {
+	background-color: #66BB33;
+	height: 300px;
+}
+.content-one {
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.Banner ul {
+	position: absolute;
+	bottom: -4px;
+	right: 0px;	
+}
+.Banner ul li {
+	width: 30px;
+	height: 34px;
+	margin-right: 4px;
+	border: 1px solid #14250A;
+	background-color: #B2DD99;
+	text-align: center;
+	line-height: 34px;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+.second {
+	padding-top: 14px;
+	background-color: #E0F1D6 !important;
+	position: relative;
+	bottom: 14px;
+}
+.Banner ul li a {
+	color: #14250A;
+	text-decoration: none;
+}
+.content-one ul:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}
+
+/*nav区域*/
+.nav {
+	background-color: #FFFFFF;
+	height: 72px;
+	border: 1px solid #DDDDDD;
+}
+.content-two {
+	width: 960px;
+	height: 72px;
+	margin: 0 auto;
+}
+.nav ul li {
+	float: left;
+	list-style-type: none;
+}
+.nav ul li a {
+	width: 106px;
+	height: 50px;
+	display: block;
+	margin-top: 22px;
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	color: #14250A;
+	text-decoration: none;
+	line-height: 50px;
+	border-radius: 20px 20px 0 0;
+}
+#home {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+ul li a:hover {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.nav ul:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}
+
+/*main区域*/
+.main {
+	height: 580px;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.content-three {
+	width: 960px;
+	height: 540px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.item {
+	flex: auto;
+	/*margin: 2px;*/
+	padding: 80px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+}
+/*foot区域*/
+.foot {
+	height: 200px;
+	background-color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*float实现左侧30%，右侧%70的两栏布局
 .left {   
