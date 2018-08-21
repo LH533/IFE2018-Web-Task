@@ -2,30 +2,84 @@
 	padding: 0;
 	margin: 0;
 }
+body {
+	width: 100%;
+}
+/*header区域*/
 .header {
 	width: 100%;
-	height: 900px;
+	min-width: 960px;
+	margin: 0 auto;
+	padding-bottom: 100px;
 	background: url(images/bk_01.png) center center no-repeat;
 	background-size: 100% 100%;
 }
 .header h1 {
-	width: 400px;
+	width: 30%;
+	min-width: 324px;
 	margin: 0 auto;
-	padding: 240px 0 80px;
+	padding: 210px 0 90px;
 	color: #FFFFFF;
 	text-align: center;
 	font: normal 100 60px "microsoft yahei";
 }
 .header span {
-	width: 1000px;
-	margin: 0 auto;
+	width: 60%;
+	margin: 6px auto 0;
 	text-align: center;
+	word-spacing: 6px;
+	color: #B6A589;
+	font: normal 100 20px "microsoft yahei";
 	display: block;
 }
+.login {
+	width: 70%;
+	margin: 100px auto 0;
+	border: 1px solid #71675E;
+}
 .header h3 {
-	width: 400px;
-	margin: 0 auto;
+	width: 50%;
+	margin: 60px auto 0;
 	color: #FFFFFF;
 	text-align: center;
+	font: normal 100 1em "microsoft yahei";
+}
+#text1 {
+	margin: 10px auto 0;
+	width: 16%;
+	color: #615c53;
+	font: normal 100 10px "microsoft yahei";
+}
+.account {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.label1 {
+	width: 20%;
+	margin: 60px 0 40px 0px;
+	padding: 20px 100px 20px 20px;
+	background-color: transparent;
+	border: 1px solid #71675E;
+	font: normal 100 16px "microsoft yahei";
+	color: #FFFFFF;
+	text-align: center;
+}
+.label2 {
+	width: 20%;
+	margin: 60px 0 40px 20px;
+	padding: 20px 100px 20px 20px;
+	background-color: transparent;
+	border: 1px solid #71675E;
+	font: normal 100 16px "microsoft yahei";
+	color: #615c53;
+}
+.click {
+	width: 20%;
+	max-width: 300px;
+	margin: 60px 0 40px 20px;
+	padding: 20px 40px;
+	background-color: #FFFFFF;
+	border: 1px solid transparent;
 	font: normal 100 16px "microsoft yahei";
 }
