@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	width: 100%;
+	height: 900px;
+	background: url(images/bk_01.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+.header h1 {
+	width: 400px;
+	margin: 0 auto;
+	padding: 240px 0 80px;
+	color: #FFFFFF;
+	text-align: center;
+	font: normal 100 60px "microsoft yahei";
+}
+.header span {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+.header h3 {
+	width: 400px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+	font: normal 100 16px "microsoft yahei";
+}
