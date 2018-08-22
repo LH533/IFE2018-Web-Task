@@ -9,13 +9,16 @@ body {
 .header {
 	width: 100%;
 	min-width: 960px;
-	margin: 0 auto;
-	padding-bottom: 100px;
 	background: url(images/bk_01.png) center center no-repeat;
 	background-size: 100% 100%;
 }
+.content {	
+	width: 80%;
+	min-width: 960px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
 .header h1 {
-	width: 30%;
 	min-width: 324px;
 	margin: 0 auto;
 	padding: 210px 0 90px;
@@ -24,7 +27,7 @@ body {
 	font: normal 100 60px "microsoft yahei";
 }
 .header span {
-	width: 60%;
+	min-width: 830px;
 	margin: 6px auto 0;
 	text-align: center;
 	word-spacing: 6px;
@@ -33,12 +36,12 @@ body {
 	display: block;
 }
 .login {
-	width: 70%;
+	min-width: 960px;
 	margin: 100px auto 0;
 	border: 1px solid #71675E;
+	box-sizing: border-box;
 }
 .header h3 {
-	width: 50%;
 	margin: 60px auto 0;
 	color: #FFFFFF;
 	text-align: center;
@@ -46,17 +49,16 @@ body {
 }
 #text1 {
 	margin: 10px auto 0;
-	width: 16%;
 	color: #615c53;
 	font: normal 100 10px "microsoft yahei";
 }
 .account {
-	width: 90%;
+	min-width: 840px;
 	margin: 0 auto;
 	text-align: center;
 }
 .label1 {
-	width: 20%;
+	min-width: 250px;
 	margin: 60px 0 40px 0px;
 	padding: 20px 100px 20px 20px;
 	background-color: transparent;
@@ -66,7 +68,7 @@ body {
 	text-align: center;
 }
 .label2 {
-	width: 20%;
+	min-width: 250px;
 	margin: 60px 0 40px 20px;
 	padding: 20px 100px 20px 20px;
 	background-color: transparent;
@@ -75,11 +77,72 @@ body {
 	color: #615c53;
 }
 .click {
-	width: 20%;
+	min-width: 150px;
 	max-width: 300px;
 	margin: 60px 0 40px 20px;
-	padding: 20px 40px;
+	padding: 20px 20px;
 	background-color: #FFFFFF;
 	border: 1px solid transparent;
 	font: normal 100 16px "microsoft yahei";
+}
+
+/* section-one区域 */
+section-one {
+	width: 100%;
+	padding: 100px 0;
+}
+.content-one {
+	width: 80%;
+	min-width: 960px;
+	margin: 0 auto;
+}
+.content-one h6 {
+	min-width: 100px;
+	margin: 60px auto 20px;
+	font-size: 10px;
+	text-align: center;
+}
+.content-one span{
+	min-width: 200px;
+	margin: 6px auto 0;
+	text-align: center;
+	word-spacing: 6px;
+	color: #3a3a3a;
+	font: normal 100 36px "microsoft yahei";
+	display: block;
+}
+.container {
+	margin-bottom: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.block {
+	min-width: 400px;
+	margin: 50px 80px 0;
+	float: left;
+}
+.block img {
+	float: left;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+}
+.word-container {
+	max-width: 1200px;
+	float: left;
+}
+.word-container h5 {
+	margin-bottom: 20px;
+	color: #111111;
+}
+.word-container p {
+	color: #908e8e;
+	font-size: 10px;
+}
+.container:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
 }
