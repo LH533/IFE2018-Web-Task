@@ -482,3 +482,37 @@ body {
 	font-weight: 600;
 	display: block;
 }
+
+/*foot区域*/
+.footer {
+	min-width: 960px;
+	margin: 100px auto 0;
+	background-color: #000000;
+}
+.content-footer {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.content-footer ul {
+	margin: 100px 0;
+	flex:1;
+}
+.content-footer ul li {
+	margin: 20px 0;
+	list-style-type: none;
+}
+.content-footer ul li a {
+	color: #605e5e;
+	text-decoration: none;
+}
+.content-footer ul li:first-child a {
+	color: #FFFFFF;
+}
+.content-footer ul #picture {
+	padding-top:10px;
+}
+.content-footer ul #picture img {
+	margin-right: 20px;
+}
