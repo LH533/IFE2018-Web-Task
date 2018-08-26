@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.container:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+/*left_menu区域*/
+.left_menu {
+	width: 100px;
+	height: 1000px;
+	background-color: #1d2530;
+	float: left;
+	position: relative;
+}
+.fix_top {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+}
+.fix_top a {
+	padding-top: 18px;
+	display: block;
+	text-align: center;
+}
+.fix_bottom {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+}
+.fix_bottom a {
+	padding-top: 20px;
+	padding-bottom: 14px;
+	display: block;
+	text-align: center;
+}
+
+/*middle_menu区域*/
+.middle_menu {
+	width: 250px;
+	height: 1000px;
+	background-color: #222c3c;
+	position: relative;
+	float: left;
+}
+.part1 {
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #475364;
+	font: 16px "arial";
+}
+.part1 p {
+	padding-top: 30px;
+}
+.part1 p:first-child {
+	position: relative;
+}
+.part1 p:nth-child(3) {
+	position: relative;
+	box-sizing: border-box;
+}
+.part1 p:first-child img {
+	position: absolute;
+	right: 0;
+}
+#Saies_number {
+	padding: 4px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	display: inline-block;
+	background-color: #2ca0f7;
+}
