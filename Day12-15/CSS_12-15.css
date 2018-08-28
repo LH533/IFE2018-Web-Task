@@ -51,6 +51,10 @@
 	bottom: 0;
 	background-color: #222c3c;
 }
+.middle_menu a {
+	text-decoration: none;
+	color: #b7c0cd;
+}
 .part1 {
 	width: 200px;
 	margin: 0 auto;
@@ -59,12 +63,14 @@
 	font: 10px "arial";
 }
 .part1 p {
-	height: 30px;
+	height: 36px;
 	color: #d3eafc;
-	line-height: 30px;
+	line-height: 36px;
 }
 .part1 p:first-child {
 	position: relative;
+}
+.part1 p:first-child a {
 	color: #475364;
 }
 .part1 p:nth-child(3) {
@@ -73,11 +79,11 @@
 .part1 p:first-child img {
 	position: absolute;
 	right: 0;
-	top: 7px;
+	top: 10px;
 }
 #Saies_number {
 	height: 20px;
-	margin-top: 1px;
+	margin-top: 4px;
 	padding: 4px 12px;
 	position: absolute;
 	right: 0;
@@ -96,15 +102,18 @@
 	font: 10px "arial";
 }
 .part2 p {
-	height: 30px;
+	height: 36px;
 	color: #d3eafc;
-	line-height: 30px;
+	line-height: 36px;
 }
-.part1 p img {
-	
+.part2 p img {
+	padding-right: 10px;
+	vertical-align: middle;
 }
 .part2 p:first-child {
 	position: relative;
+}
+.part2 p:first-child a {
 	color: #475364;
 }
 .part2 p:nth-child(3) {
@@ -112,8 +121,10 @@
 	box-sizing: border-box;
 }
 .part2 p:first-child img {
+	padding-right: 0;
 	position: absolute;
 	right: 0;
+	top: 10px;
 }
 .part3 {
 	width: 200px;
@@ -123,16 +134,21 @@
 	font: 10px "arial";
 }
 .part3 p {
-	height: 30px;
+	height: 36px;
 	color: #d3eafc;
-	line-height: 30px;
+	line-height: 36px;
 }
 .part3 p:first-child {
 	position: relative;
+}
+.part3 p:first-child a {
 	color: #475364;
 }
 .part3 p:nth-child(2) {
 	position: relative;
+}
+.part3 p:nth-child(2) a {
+	color: #FFFFFF
 }
 .part3 p:nth-child(4) {
 	position: relative;
@@ -140,10 +156,11 @@
 .part3 p:first-child img {
 	position: absolute;
 	right: 0;
+	top: 10px;
 }
 #Integrations_information {
 	height: 20px;
-	margin-top: 1px;
+	margin-top: 4px;
 	padding: 4px 12px;
 	position: absolute;
 	right: 0;
@@ -153,4 +170,20 @@
 	display: inline-block;
 	background-color: #E63928;
 	line-height: 20px;
+}
+.part_bottom {
+	width: 200px;
+	padding-bottom: 14px;
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+}
+.part_bottom p{
+	position: relative;
+	color: #d3eafc;
+	font: 10px "arial";
+}
+#money {
+	position: absolute;
+	right: 10px;
 }
