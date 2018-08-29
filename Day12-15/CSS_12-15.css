@@ -150,6 +150,12 @@
 	position: relative;
 	left: 350px;
 }
+.main_content:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
 .detail_content {
 	border-bottom: 1px solid #b7bec7;
 }
@@ -195,6 +201,7 @@
 /* left_answer区域 */
 .left_answer {
 	width: 40%;
+	float: left;
 }
 .left_answer ul li {
 	list-style-type: none;
@@ -206,11 +213,13 @@
 }
 .left_answer li:first-child {
 	padding: 20px;
+	height: 81px;
+	box-sizing: border-box;
 }
 .left_answer li:first-child input {
 	width: 90%;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 12px;
 	border: 1px solid #b7bec7;
 	display: block;
 }
@@ -287,3 +296,106 @@
 	text-align: center;
 	line-height: 30px;
 }
+/*right_content区域*/
+.right_content {
+	width: 60%;
+	float: left;
+}
+.right_header {
+	padding: 20px;
+	height: 81px;
+	border-bottom: 1px solid #b7bec7;
+	box-sizing: border-box;
+}
+.right_header span:first-child {
+	margin-right: 10px;
+	float: left;
+	font: 600 18px "arial";
+	line-height: 40px;
+}
+.right_header span:nth-child(2) {
+	width: 8px;
+	height: 8px;
+	margin-top: 16px;
+	border-radius: 50%;
+	background-color: #1bb934;
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+}
+.right_header p {
+	margin: 0 20px 0 30px;
+	padding-left: 20px;
+	border-left: 1px solid #b7bec7;
+	line-height: 40px;
+	float: right;
+}
+.right_header ul {
+	float: right;
+}
+.right_header ul {
+	border: 1px solid #b7bec7;
+	border-radius: 6px;
+}
+.right_header ul li {
+	list-style-type: none;	
+	float: left;
+}
+.right_header ul li a {	
+	padding: 8px 13px;
+	display: block;
+	text-align: center;
+}
+.right_header #first_ul li:first-child a,
+.right_header #second_ul li:first-child a,
+.right_header #second_ul li:nth-child(2) a
+ {
+	border-right: 1px solid #b7bec7;
+}
+.right_header #first_ul li a img {
+	width: 10px;
+	height: 10px;
+	background-size: 100% 100%;	
+	vertical-align: middle;
+}
+.right_header:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.content_part1 {
+	padding: 20px;
+}
+.content_part1 img {
+	padding-right: 20px;
+	float: left;
+}
+.content_part1 .top {
+	padding-bottom: 20px;
+}
+.content_part1 .one {
+	width: 90%;
+	float: left;
+}
+.content_part1 .one p:first-child {
+	padding-bottom: 4px;
+	font: 600 18px "arial";
+}
+.content_part1 .one p:last-child {
+	color: #717375;
+	font-size: 14px;
+}
+.content_part1 #text span {
+	color: #b7bec7;
+}
+.content_part1 .top:after,
+.content_part1 .bottom:after
+ {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
