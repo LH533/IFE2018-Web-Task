@@ -376,7 +376,7 @@
 	padding-bottom: 20px;
 }
 .content_part1 .one {
-	width: 90%;
+	width: 80%;
 	float: left;
 }
 .content_part1 .one p:first-child {
@@ -399,3 +399,122 @@
 	height: 0;
 }
 
+.content_part2 {
+	padding: 20px;
+	border-top: 1px solid #b7bec7;
+	position: relative;
+}
+.content_part2 img {
+	padding-right: 20px;
+	float: left;
+}
+.content_part2 #state {
+	padding: 0 16px;
+	position: absolute;
+	background-color: #fff;
+	top: -12px;
+	left: 44%;
+	color: #b7bec7;
+}
+.content_part2 .top {
+	padding-bottom: 20px;
+}
+.content_part2 .one {
+	width: 80%;
+	float: left;
+}
+.content_part2 .bottom .one p:nth-child(2) {
+	padding-bottom: 10px;
+}
+.content_part2 .one p:first-child {
+	padding-bottom: 4px;
+	font: 600 18px "arial";
+}
+.content_part2 .one p:nth-child(2) {
+	color: #717375;
+	font-size: 14px;
+}
+.content_part2 #text span {
+	color: #b7bec7;
+}
+.content_part2 .top:after,
+.content_part2 .bottom:after
+ {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+
+.content_part3 {
+	padding: 20px;
+	border-top: 1px solid #2ca0f7;
+	position: relative;
+}
+.content_part3 #state {
+	padding: 0 16px;
+	position: absolute;
+	background-color: #fff;
+	top: -12px;
+	left: 44%;
+	color: #2ca0f7;
+}
+.content_part3 img {
+	padding-right: 20px;
+	float: left;
+}
+.content_part3 .one {
+	width: 80%;
+	float: left;
+}
+.content_part3 .one p:first-child {
+	padding-bottom: 4px;
+	font: 600 18px "arial";
+}
+.content_part3 #text span {
+	color: #b7bec7;
+}
+.content_part3 .one p:nth-child(2) {
+	color: #717375;
+	font-size: 14px;
+}
+.content_part3 .top:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
+.content_part3 .bottom {
+	margin-top: 20px;
+}
+.content_part3 .bottom a {
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+	background-color: #e4e7ea;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #b7bec7;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 8px;
+	float: left;
+}
+.content_part3 .bottom input {
+	width: 90%;
+	height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 10px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #b7bec7;
+	display: block;
+	float: left;
+}
+.content_part3 .bottom:after {
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+}
