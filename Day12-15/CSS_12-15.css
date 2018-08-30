@@ -143,6 +143,12 @@
 	position: absolute;
 	right: 10px;
 }
+.middle_menu p a:hover {
+	color: green;
+}
+.middle_menu p:first-child a:hover {
+	color: red;
+}
 
 /* main_content区域 */
 .main_content {
@@ -200,7 +206,7 @@
 
 /* left_answer区域 */
 .left_answer {
-	width: 40%;
+	width: 500px;
 	float: left;
 }
 .left_answer ul li {
@@ -209,12 +215,18 @@
 	border-bottom: 1px solid #b7bec7;
 }
 .left_answer ul li:nth-child(2) {
-	border-left: 2px solid #2ca0f7;
+	padding: 20px;
+}
+.left_answer ul li a{
+	padding: 20px;
+	text-decoration: none;
+	display: block;
 }
 .left_answer li:first-child {
 	padding: 20px;
 	height: 81px;
 	box-sizing: border-box;
+	position: relative;
 }
 .left_answer li:first-child input {
 	width: 90%;
@@ -223,13 +235,17 @@
 	border: 1px solid #b7bec7;
 	display: block;
 }
-.left_answer ul li a{
-	padding: 20px;
-	text-decoration: none;
-	display: block;
+.left_answer li:first-child a {
+	padding: 0;
+	position: absolute;
+	right: 30px;
+	top: 32px;
+}
+.left_answer ul li:nth-child(2) {
+	border-left: 4px solid #2ca0f7;
 }
 .left_answer ul li a:hover {
-	border-left: 2px solid #2ca0f7;
+	border-left: 4px solid #2ca0f7;
 }
 .left_answer ul li .top {
 	position: relative;
@@ -298,7 +314,7 @@
 }
 /*right_content区域*/
 .right_content {
-	width: 60%;
+	width: calc(100% - 500px);
 	float: left;
 }
 .right_header {
