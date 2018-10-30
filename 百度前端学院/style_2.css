@@ -1,0 +1,21 @@
+html{
+	font-size: 16px;
+	font-family: serif;
+}
+
+h1{
+	float: left;
+	background-color: #65A5FA;
+	width: 15%;
+	height: 690px;
+	margin: 0;
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+/*这里让这个部分与上面都是浮动*/
+.main{
+	float: left;
+	padding: 15px 0 0 40px;
+}
